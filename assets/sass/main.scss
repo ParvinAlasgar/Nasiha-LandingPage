@@ -1,0 +1,10 @@
+@import "./base/base";
+@import "./base/variables";
+@import "./layouts/responsive";
+@import "./layouts/header";
+
+.div {
+  background-color: aqua;
+  height: 50rem;
+  margin-top: 6rem;
+}

@@ -1,0 +1,26 @@
+html {
+  font-size: 1rem !important;
+}
+
+@media only screen and (max-width: 576px) {
+  #header {
+    height: 2.5rem !important;
+    font-size: 0.8rem !important;
+  }
+  #header .top-bar,
+  #header hr,
+  #header .logo,
+  #header .search {
+    display: none !important;
+  }
+}
+#header {
+  height: 6rem;
+  left: 0;
+}
+
+.div {
+  background-color: aqua;
+  height: 50rem;
+  margin-top: 6rem;
+}/*# sourceMappingURL=main.css.map */
