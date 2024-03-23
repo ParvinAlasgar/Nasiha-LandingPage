@@ -139,4 +139,13 @@ main {
       color: $color-first;
     }
   }
+  // Testimonial
+  #testimonial {
+    h6 {
+      color: $color-first;
+    }
+    img {
+      border-bottom: 0.2rem solid $color-first;
+    }
+  }
 }

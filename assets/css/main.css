@@ -156,4 +156,10 @@ main #discover {
 }
 main #discover h3 {
   color: #b39687;
+}
+main #testimonial h6 {
+  color: #b39687;
+}
+main #testimonial img {
+  border-bottom: 0.2rem solid #b39687;
 }/*# sourceMappingURL=main.css.map */
