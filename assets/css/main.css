@@ -21,6 +21,7 @@ html {
 #header {
   height: 6rem;
   left: 0;
+  z-index: 5 !important;
 }
 
 main #hero {
@@ -65,4 +66,28 @@ main #hero .content .btn:nth-child(1):hover {
 main #hero .content .btn:nth-child(2):hover {
   color: #000 !important;
   background-color: #fff;
+}
+main #about {
+  margin: 10rem 0;
+}
+main #about h4,
+main #about a {
+  color: #b39687;
+}
+main #about .img {
+  position: relative;
+}
+main #about .img::before {
+  content: "";
+  position: absolute;
+  background: url(../images/pattern.png) no-repeat;
+  top: 0;
+  left: 0%;
+  width: 60%;
+  height: 60%;
+  z-index: -1;
+}
+main #about .img img {
+  width: 70%;
+  margin: 4rem;
 }/*# sourceMappingURL=main.css.map */

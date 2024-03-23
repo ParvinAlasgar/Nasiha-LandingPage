@@ -5,6 +5,7 @@
 
 // Main
 main {
+  // Hero
   #hero {
     background-image: url(../images/1.jpg);
     background-repeat: no-repeat;
@@ -47,6 +48,31 @@ main {
             background-color: #fff;
           }
         }
+      }
+    }
+  }
+  // About
+  #about {
+    margin: 10rem 0;
+    h4,
+    a {
+      color: $color-first;
+    }
+    .img {
+      position: relative;
+      &::before {
+        content: "";
+        position: absolute;
+        background: url(../images/pattern.png) no-repeat;
+        top: 0;
+        left: 0%;
+        width: 60%;
+        height: 60%;
+        z-index: -1;
+      }
+      img {
+        width: 70%;
+        margin: 4rem;
       }
     }
   }
