@@ -150,4 +150,10 @@ main #think {
 }
 main #think h6 {
   color: #b39687;
+}
+main #discover {
+  background: linear-gradient(135deg, #332e35 0%, #5d5b64 50%);
+}
+main #discover h3 {
+  color: #b39687;
 }/*# sourceMappingURL=main.css.map */
