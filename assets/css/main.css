@@ -17,6 +17,9 @@ html {
     margin-top: 2.4rem !important;
     height: 30rem !important;
   }
+  #services .wrapper {
+    background-color: #b39687 !important;
+  }
 }
 #header {
   height: 6rem;
@@ -90,4 +93,52 @@ main #about .img::before {
 main #about .img img {
   width: 70%;
   margin: 4rem;
+}
+main #services {
+  background: linear-gradient(135deg, #332e35 0%, #5d5b64 50%);
+}
+main #services .wrapper {
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+  transition: background-color 0.5s;
+}
+main #services .wrapper a {
+  position: absolute;
+  bottom: 1rem;
+  transition: 0.5s ease;
+  visibility: hidden;
+}
+main #services .wrapper:hover {
+  background-color: #b39687;
+}
+main #services .wrapper:hover a {
+  transform: translateX(1rem);
+  visibility: visible;
+}
+main #services .wrapper:hover::after {
+  left: 50%;
+  visibility: visible;
+}
+main #services .wrapper::after {
+  content: "";
+  background: url(../images/horse.webp), no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.2;
+  transition: 0.5s ease-in-out;
+  visibility: hidden;
+}
+main #services .btn {
+  border-radius: 2rem;
+  transition: 0.5s;
+}
+main #services .btn:hover {
+  background-color: #fff;
+  color: #000 !important;
 }/*# sourceMappingURL=main.css.map */

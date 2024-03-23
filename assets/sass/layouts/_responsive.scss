@@ -17,7 +17,7 @@
 @media only screen and (max-width: 576px) {
   #header {
     height: 2.5rem !important;
-    font-size: .8rem !important;
+    font-size: 0.8rem !important;
     .top-bar,
     hr,
     .logo,
@@ -25,9 +25,14 @@
       display: none !important;
     }
   }
-  #hero{
+  #hero {
     margin-top: 2.4rem !important;
     height: 30rem !important;
+  }
+  #services {
+    .wrapper {
+      background-color: $color-first !important;
+    }
   }
 }
 
