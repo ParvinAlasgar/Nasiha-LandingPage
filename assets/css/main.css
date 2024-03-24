@@ -221,4 +221,7 @@ main #stories .wrapper img {
 }
 main #stories .wrapper:hover img {
   transform: scale(1.2);
+}
+main #started .content {
+  margin-top: 5rem;
 }/*# sourceMappingURL=main.css.map */
