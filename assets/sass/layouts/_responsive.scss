@@ -51,6 +51,11 @@
     margin-top: 2.4rem !important;
     height: 30rem !important;
   }
+  #about {
+    .img img {
+      margin: 0.5 !important;
+    }
+  }
   #services {
     .wrapper {
       background-color: $color-first !important;
