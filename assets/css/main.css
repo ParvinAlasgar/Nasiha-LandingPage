@@ -162,4 +162,26 @@ main #testimonial h6 {
 }
 main #testimonial img {
   border-bottom: 0.2rem solid #b39687;
+}
+main #appotoach {
+  background: linear-gradient(135deg, #332e35 0%, #5d5b64 50%);
+}
+main #appotoach h6,
+main #appotoach a {
+  color: #b39687;
+}
+main #appotoach a {
+  border: 1px solid #b39687;
+  border-radius: 2rem;
+  transition: 0.5s;
+}
+main #appotoach a:hover {
+  color: #fff;
+  background-color: #b39687;
+}
+main #appotoach i {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #b39687;
 }/*# sourceMappingURL=main.css.map */

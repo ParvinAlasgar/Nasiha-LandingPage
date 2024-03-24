@@ -148,4 +148,26 @@ main {
       border-bottom: 0.2rem solid $color-first;
     }
   }
+  // Appotoach
+  #appotoach {
+    background: $color-second;
+    h6,
+    a {
+      color: $color-first;
+    }
+    a {
+      border: 1px solid $color-first;
+      border-radius: 2rem;
+      transition: 0.5s;
+      &:hover {
+        color: #fff;
+        background-color: $color-first;
+      }
+    }i{
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      color: $color-first;
+    }
+  }
 }
