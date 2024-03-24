@@ -11,6 +11,12 @@ html {
   main #success img {
     display: none !important;
   }
+  #footer p {
+    text-align: center;
+  }
+  #footer ul {
+    justify-content: center !important;
+  }
 }
 @media only screen and (max-width: 576px) {
   #header {
@@ -38,6 +44,20 @@ html {
   height: 6rem;
   left: 0;
   z-index: 5 !important;
+}
+
+#footer {
+  background: linear-gradient(135deg, #332e35 0%, #5d5b64 50%);
+}
+#footer .logo img {
+  width: 6rem;
+}
+#footer .social-links img {
+  width: 2rem;
+}
+#footer i {
+  color: #b39687;
+  margin-right: 0.5rem;
 }
 
 main #hero {

@@ -25,6 +25,14 @@
       }
     }
   }
+  #footer {
+    p {
+      text-align: center;
+    }
+    ul {
+      justify-content: center !important;
+    }
+  }
 }
 
 // Small devices  (tablets, 576px and down)

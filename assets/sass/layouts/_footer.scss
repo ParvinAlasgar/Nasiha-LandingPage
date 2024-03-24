@@ -1,0 +1,17 @@
+#footer {
+  background: $color-second;
+  .logo {
+    img {
+      width: 6rem;
+    }
+  }
+  .social-links {
+    img {
+      width: 2rem;
+    }
+  }
+  i {
+    color: $color-first;
+    margin-right: 0.5rem;
+  }
+}
