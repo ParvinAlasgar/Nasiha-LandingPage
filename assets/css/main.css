@@ -184,4 +184,16 @@ main #appotoach i {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #b39687;
+}
+main #minds .wrapper img {
+  border-bottom: 0.4rem solid #b39687;
+}
+main #minds .wrapper h6 {
+  color: #b39687;
+}
+main #minds .wrapper i {
+  transition: background-color 0.5s;
+}
+main #minds .wrapper i:hover {
+  background-color: #b39687 !important;
 }/*# sourceMappingURL=main.css.map */

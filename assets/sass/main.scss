@@ -163,11 +163,29 @@ main {
         color: #fff;
         background-color: $color-first;
       }
-    }i{
+    }
+    i {
       top: 50%;
       left: 50%;
-      transform: translate(-50%,-50%);
+      transform: translate(-50%, -50%);
       color: $color-first;
+    }
+  }
+  // Minds
+  #minds {
+    .wrapper {
+      img {
+        border-bottom: 0.4rem solid $color-first;
+      }
+      h6 {
+        color: $color-first;
+      }
+      i {
+        transition: background-color 0.5s;
+        &:hover {
+          background-color: $color-first !important;
+        }
+      }
     }
   }
 }
