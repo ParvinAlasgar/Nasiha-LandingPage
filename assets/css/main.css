@@ -2,6 +2,16 @@ html {
   font-size: 1rem !important;
 }
 
+@media only screen and (max-width: 992px) {
+  main #stories .img {
+    width: 75% !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  main #success img {
+    display: none !important;
+  }
+}
 @media only screen and (max-width: 576px) {
   #header {
     height: 2.5rem !important;
@@ -196,4 +206,19 @@ main #minds .wrapper i {
 }
 main #minds .wrapper i:hover {
   background-color: #b39687 !important;
+}
+main #success {
+  background: linear-gradient(135deg, #332e35 0%, #5d5b64 50%);
+}
+main #success i {
+  margin-right: 1rem;
+}
+main #stories .wrapper h5 {
+  color: #b39687;
+}
+main #stories .wrapper img {
+  transition: transform 0.5s;
+}
+main #stories .wrapper:hover img {
+  transform: scale(1.2);
 }/*# sourceMappingURL=main.css.map */

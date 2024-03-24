@@ -188,4 +188,27 @@ main {
       }
     }
   }
+  // Success
+  #success {
+    background: $color-second;
+    i {
+      margin-right: 1rem;
+    }
+  }
+  // Stories
+  #stories {
+    .wrapper {
+      h5 {
+        color: $color-first;
+      }
+      img {
+        transition: transform 0.5s;
+      }
+      &:hover {
+        img {
+          transform: scale(1.2);
+        }
+      }
+    }
+  }
 }

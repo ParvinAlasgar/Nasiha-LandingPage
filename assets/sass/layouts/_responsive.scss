@@ -7,10 +7,24 @@
 
 // Large devices (desktops, 992px and down)
 @media only screen and (max-width: 992px) {
+  main {
+    #stories {
+      .img {
+        width: 75% !important;
+      }
+    }
+  }
 }
 
 // Medium devices (tablets, 768px and down)
 @media only screen and (max-width: 768px) {
+  main {
+    #success {
+      img {
+        display: none !important;
+      }
+    }
+  }
 }
 
 // Small devices  (tablets, 576px and down)
